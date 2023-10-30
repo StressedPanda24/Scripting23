@@ -1,0 +1,127 @@
+
+    /*relative to the CSS files*/
+   /* These are the defult styles*/
+body{
+    background-color: #86A5A9;
+    text-align: center;  
+}
+
+#Me{
+    background-color: #D6B6E6;
+}
+
+#Accomplishments {
+    background-color:#AFA4E5 ;
+}
+#Portfolio{
+    background-color:#D6B6E6 ;
+}
+#Artists{
+    background-color: #AFA4E5;
+}
+h1,
+h2 {
+    font-family: 'Averia Sans Libre', sans-serif;
+}
+
+
+/*********************************Header*************************************/
+header { 
+  
+    /*center the text*/
+    text-align: center;
+    /*add padding - 30 pixels*/
+    padding: 15px;
+    
+}
+#headerImage{
+    background-color: #AFA4E5;
+}
+
+nav{
+background-color: #D6B6E6;
+
+}
+
+/*only one thing on the page that is different - use an ID*/
+/*hashtag # - Octothorpe */
+/******************Words under front pic********************/
+#diffI {
+    color: rgb(3, 32, 41)
+}
+
+
+/************************navigation bar*************************************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AFA4E5;
+    /*fixed top*/
+    
+}
+
+nav li {
+    float: left;
+
+}
+/********NAV BAR********************/
+nav a, nav a:visited {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+/*hover state for the nave buttons*/
+/*pseudo-class for hovering*/
+nav a:hover{
+    background-color: #83d4a5;
+}
+
+ /* NEW class for the sticky navigation*/
+ .sticky{
+    position: -webkit-sticky; 
+    /* Safari */
+    position: sticky;
+    top: 0;
+ }
+
+/*****************************Section****************************************/
+
+section {
+    background-color:#8AAFE6;
+    /*no pixel amount - use percent or viewport width*/
+    width: 70vw;
+    /*center the sections but top & bottom pacing is none*/
+    /*top, bottom - left and right*/
+    margin: 0 auto;
+    /*adds space inside the sections*/
+    padding: 25px;
+    /*fix the issue with the image height not being recognized by the section*/
+    overflow: hidden;
+}
+
+/*CLASS - reusable bit of css that you can put on elements*/
+/*start in css with a dot (period)*/
+
+section img{
+    float:left;
+    margin-right:20px
+}
+
+
+
+
+
+
+
+
+/**************************Footer*****************************************/
+/*change the background colour
+center the text
+add some nice padding*/
+
+
+
