@@ -1,0 +1,25 @@
+header{
+    background-image: url('../images/Andrew_Dog.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+#serviceHeader{
+    background-image: url('../images/backgrounds/ServicesHeader.jpg');
+}
+
+.bg-purple{
+    background-color: rgb(78, 37, 116);
+}
+
+.nav-link{
+    color: rgb(228, 194, 250) !important;
+}
+.navbar-brand{
+    color: #f3ebfa!important;
+}
+
+footer a{
+    color: rgb(193, 148, 243)
+}
