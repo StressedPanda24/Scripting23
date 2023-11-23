@@ -1,0 +1,48 @@
+header{
+    background-image: url(../Images/MexicoCityHorizion.jpg);
+    background-size: cover;
+    background-position:bottom;
+    height: 80vh;
+ 
+}
+
+
+#Attractionsheader{
+    background-image: url(../Images/MexicoBuilding.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 80vh;
+}
+
+#galleryheader{
+    background-image:url(../Images/mariachiband.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 80vh;
+}
+
+#contactheader{
+    background-image: url(../Images/MexicoNight.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 80vh;
+}
+
+body{
+    font-family: 'Lilita One', sans-serif;
+   background-color: rgb(235, 206, 168);
+}
+
+
+
+h2{
+    font-family: 'Dangrek', sans-serif;
+} 
+
+.bg-green{
+    background-color: rgb(10, 75, 39);
+}
+
+#footer{
+    background-color: brown;
+}
