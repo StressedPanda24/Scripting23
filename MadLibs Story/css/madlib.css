@@ -1,0 +1,11 @@
+header{
+    background-image: url("../Images/CloudyPicture.jpg");
+    background-size: cover;
+    
+}
+
+.customHeight{
+    height:40vh;
+}
+
+

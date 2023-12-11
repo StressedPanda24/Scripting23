@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mad Lib</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/madlib.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-------------------------Mastheader-------------------------->
+    <header>
+        <div class="container">
+            <div class="row align-items-center customHeight">
+                <div class="col-sm-6 text-White text-right">
+                    <h2> The Old Woman </h2>
+                    <p>The MADlibs story </p>
+                </div><!--ends column-->
+            </div><!--ends row-->
+        </div><!--ends container-->
+    </header>
+    <!------------------------Main Body--------------------------->
+    <section><form action="javascript:write();">
+        <div class="container py-5">
+
+    <!--------------------rows for the Written----------------------->
+            <div class="row my-5 p-3">
+                <div class="col-sm-6 mx-auto">
+                <h2>Fill The Form Below</h2>
+                <p> To go on a spooky adventure</p>
+
+                
+                    
+                    <div class="form-group">
+                        <label for="name"> Old Woman's Name:</label>
+                        <input class="form-control" type="text" id="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="color"> Color:</label>
+                        <input class="form-control" type="text" id="color">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="sound"> Sound:</label>
+                        <input class="form-control" type="text" id="sound">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fruit"> Fruit:</label>
+                        <input class="form-control" type="text" id="fruit">
+                    </div>
+                    <div class="form-group">
+                        <label for="flying animal"> Flying Animal's:</label>
+                        <input class="form-control" type="text" id="flying animal">
+                    </div>
+     <!----------------The start for First Options-------------------->
+     
+     <div class="form-group">
+       Choose a Building
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="building" value="hospital">Hospital
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="building" value="school">School
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="building" value="airport">Airport
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="building" value="house">House
+            </label>
+        </div>
+        <br>
+        </div><!---ends column-->
+        </div>
+        <div class="col-sm-6 mx-auto">
+        <!-------------Start for the Second Option------------------->
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="form-group">
+            Choose an Object
+             <div class="form-check">
+                 <label class="form-check-label">
+                     <input type="radio" class="form-check-input" name="object" value="teddy bear's">Teddy Bear's
+                 </label>
+             </div>
+             <div class="form-check">
+                 <label class="form-check-label">
+                     <input type="radio" class="form-check-input" name="object" value="Board game's">Board Game's
+                 </label>
+             </div>
+             <div class="form-check">
+                 <label class="form-check-label">
+                     <input type="radio" class="form-check-input" name="object" value="party hat's">Party Hat's
+                 </label>
+             </div>
+             <div class="form-check">
+                 <label class="form-check-label">
+                     <input type="radio" class="form-check-input" name="object" value="baseball bat's">Baseball Bat's
+                 </label>
+             </div>
+         </div>
+    
+        <!--------------Start for the Third Options-------------------->
+    <div class="form-group">
+       What type of Chair 
+         <div class="form-check">
+             <label class="form-check-label">
+                 <input type="radio" class="form-check-input" name="chair" value="wooden chair">Wooden Chair
+             </label>
+         </div>
+         <div class="form-check">
+             <label class="form-check-label">
+                 <input type="radio" class="form-check-input" name="chair" value="velvet chair">Velvet Chair
+             </label>
+         </div>
+         <div class="form-check">
+             <label class="form-check-label">
+                 <input type="radio" class="form-check-input" name="chair" value="steel chair">Steel Chair
+             </label>
+         </div>
+         <div class="form-check">
+             <label class="form-check-label">
+                 <input type="radio" class="form-check-input" name="chair" value="water chair">Water Chair
+             </label>
+         </div> 
+     </div>    
+        <!----------------Start of the Fourth Option------------------>
+     <div class="form-group">
+        What type of Animal 
+          <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="animal" value="deer's">Deer's
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="animal" value="bunny's">Bunny's
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="animal" value="horse's">Horse's
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="animal" value="elephant's">Elephant's
+              </label>
+          </div> 
+      </div>   
+      <!------------------Start of the Fifth Option------------------>
+      <div class="form-group">
+        Choose a theme
+          <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="hand" value="skeleton hand"> Skeleton Hand
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="hand" value="zombie hand"> Zombie Hand 
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="hand" value="vampire hand"> Vampire Hand
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="hand" value="werewolf hand"> Werewolf Hand
+              </label>
+          </div> 
+      </div>   
+     <!---------------------------Button----------------------->
+                    <button type="submit" class="btn btn-blaock btn-outline-secondary">Submit</button>
+                
+
+                
+            </div><!--ends column-->
+        </div><!---ends row--->
+    </div><!--ends container--> 
+</form>
+    <!---------------------Row for Output--------------------->
+        <div class="row">
+            <div id="output" class="col-sm-6 mx-auto bg-secondary p-5  round text-white">
+                <h2>Adventure Awaits</h2>
+
+            </div><!--ends column-->
+        </div><!--ends row-->
+    </section>
+
+
+   <br>
+   <br>
+
+
+    <!-----------Javascript---------->
+    <script src="Js/madlib.js"></script>
+
+</body>
+
+</html>
